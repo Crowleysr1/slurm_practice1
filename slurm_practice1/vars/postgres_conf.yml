@@ -1,0 +1,5 @@
+db_host: 127.0.0.1
+db_port: 5432
+db_name: slurm
+db_user: slurm
+db_passwd: slurm2022

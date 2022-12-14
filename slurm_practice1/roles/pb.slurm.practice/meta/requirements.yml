@@ -1,0 +1,7 @@
+# From Ansible Galaxy
+roles
+- src: geerlingguy.nginx
+- src: pb.postgres
+
+#collections:
+#- name: community.postgresql

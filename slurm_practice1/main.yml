@@ -1,0 +1,12 @@
+---
+- name: Slurm Ansible Practicum
+  gather_facts: yes
+  any_errors_fatal: yes
+  hosts: centos7
+
+  tasks:
+  - include_role:
+      name: pb.slurm.practice
+    vars:
+      db_config: 'postgres_conf.yml'
+      app_config: 'app_conf.yml'
